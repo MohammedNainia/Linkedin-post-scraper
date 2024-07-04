@@ -8,9 +8,9 @@ import pandas as pd
 import re
 
 LINKEDIN_URL = "https://www.linkedin.com/login"
-PROFILE_URL = "https://www.linkedin.com/in/nainia-mohammed-7655ab167/recent-activity/all/"
-USERNAME = "nainiaaxie3@gmail.com"
-PASSWORD = "Simo@1997"
+PROFILE_URL = "linkedin account you want to scrap" # <---- Modify 
+USERNAME = "your email" # <---- Modify 
+PASSWORD = "your password"# <---- Modify 
 
 def extract_hashtags(text):
     return re.findall(r'#\w+', text)
